@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+/* Page Sizing */
+header, main, nav, footer {
+    margin: 3% auto;
+    max-width: 760px;
+}
+
+body {
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+    background-color:rgb(236, 217, 206);
+
+}
+
+.imgheader {
+    max-width: 100%;
+    box-shadow: 0 0 20px 2px;
+    margin: 1em;
+    float: right;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    background-color:mediumblue;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+/* Main Area */
+main h2 {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.assignmentlist {
+    margin-left: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: mediumblue;
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;  
+    text-align: center; 
+}
+
+#updatetime {
+    color:salmon;
+}
+
+/* Links */
+nav a {
+    color: red;
+}
+
+nav a:hover {
+    color:tomato;
+}
+
+footer a {
+    color:orange;
+}
+
+footer a:hover {
+    color: yellow;
+}
