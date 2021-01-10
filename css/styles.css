@@ -50,12 +50,12 @@ footer {
 }
 
 #updatetime {
-    color:salmon;
+    color: yellow;
 }
 
 /* Links */
 nav a {
-    color: red;
+    color: mediumblue;
 }
 
 nav a:hover {
