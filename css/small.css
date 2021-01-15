@@ -17,17 +17,6 @@ body {
 
 header {
     text-align: center;
-}
-
-/* old way I did this
-header h1 {
-    background-color:mediumblue;
-    color: white;
-    padding: 1em;
-    border-radius: 10px;
-} */
-
-header {
     background-color:mediumblue;
     color: white;
     padding: 1em;
@@ -39,7 +28,7 @@ header h1 {
 
 /* Main Area */
 main h2 {
-    padding-left: 1em;
+    padding-left: .5em;
     padding-bottom: 0.5em;
 }
 
