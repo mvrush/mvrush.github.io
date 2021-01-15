@@ -1,5 +1,15 @@
 @media (min-width: 32.5em) {
     .imgheader {
+        box-shadow: 0 0 20px 2px;
         float: right;
     }
+
+    header {
+        border-radius: 10px;
+    }
+
+    footer {
+        border-radius: 10px;  
+    }
+
     }
