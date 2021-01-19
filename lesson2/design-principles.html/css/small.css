@@ -24,7 +24,7 @@ img {
 article {
     border-style: solid;
     border-radius: 1rem;
-    border-color: #453643; /* light purple */
+    border-color: #99b89e; /* light teal */
     margin: 1rem;
 }
 
@@ -32,7 +32,7 @@ article h3 {
     color: #99b89e; /* light teal */ 
     background: #453643; /* light purple */
     margin: 0;
-    border-radius: 10px 10px 0 0;
+    border-radius: 12px 12px 0 0;
     font-family: 'DM Serif Display', 'Times New Roman', serif;
     font-size: 1.6rem;
 }
