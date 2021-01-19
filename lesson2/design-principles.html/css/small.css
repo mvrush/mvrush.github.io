@@ -39,6 +39,7 @@ article h3 {
 
 article h4 {
     font-size: 1.1rem;
+    color: #28112b; /* dark purple */
 }
 
 article h3, h4 {
