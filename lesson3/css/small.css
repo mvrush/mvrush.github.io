@@ -11,6 +11,16 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+img {
+    width: 90%;
+    align-self: left;
+}
+
+.bodylogo {
+    width: 200px;
+    align-self: left;
+}
+
 
 /*----------- HEADER --------------*/
 header {

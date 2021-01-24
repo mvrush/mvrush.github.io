@@ -89,7 +89,7 @@ footer {
 }
 
 
-/* this is to fix the background on the links. I'm not sure why it works. (Matt) */
+/* this is to fix the background on the links. This is called the clearfix hack and the code is available from W3 schools. (Matt) */
 .clearfix:after {
     content: "";
     display: table;
