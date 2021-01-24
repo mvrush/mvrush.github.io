@@ -8,7 +8,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-family: 'Alegreya', serif;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Alegreya', serif;
 }
 
 img {
@@ -20,6 +30,20 @@ img {
     width: 200px;
     align-self: left;
 }
+
+h4 {
+    width: 6rem;
+}
+
+.navcolor {
+    background-color: #1A535C;
+    color: #F7FFF7;
+}
+.headcolor {background-color: #4ECDC4;}
+.navtextcolor {background-color: #F7FFF7;}
+.linkcolor {background-color: #FF6B6B;}
+.navlinkcolor {background-color: #FFE66D;}
+
 
 
 /*----------- HEADER --------------*/
