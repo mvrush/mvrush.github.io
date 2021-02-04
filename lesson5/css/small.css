@@ -32,20 +32,19 @@ h3 {
 header {
     padding: .5rem 2%;
     background-color: #4ECDC4;
-    display: flex;
+    /*display: flex;
     align-items: left;
-    justify-content: left;
-
+    justify-content: left;*/
 }
 header img {float:left; margin-right: 10px; width: 50px;} /* set the logo (it's native size was 200px) to 50px to fit smallest screens */
 header h1 {margin: 0; font-size: 1.3rem;} /*added font-size to fit smallest screens without wrapping */
 header h2 {margin: 0; font-weight: normal; font-size: 1rem;} /*added font-size to fit smallest screens without wrapping */
 
 /* This sets the Rain or Shine <h1> and Be prepared <h2> to stack on top of each other. You can switch flex-direction to "row" to make them go side-by-side */
-.headings {
+/*.headings {
     display: flex;
     flex-direction: column;
-}
+} */
 
 /*----------- NAVIGATION --------------*/
 nav button {
@@ -58,13 +57,13 @@ nav button {
 }
 
 nav {
-    background-color: #1A535C;    
+    background-color: #1A535C;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
 
 nav ul li a {
