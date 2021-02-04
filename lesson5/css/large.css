@@ -24,16 +24,25 @@ nav button {display: none;} /* gets rid of hamburger button */
 
 nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if sized from small to medium while the menu is hidden */
 
+nav {
+           /* use the following to center the links */
+           display: flex;
+           align-items: center;
+           justify-content: center;
+}
+
 
     nav ul li {
         float: left;
        /* display: inline-block;  (this might give you more options) */
         border: 1px solid fuchsia;
-        
+
         
     }
 
     nav ul li a{padding: .6rem 1rem;}
+
+
 
 
 /*----------- MAIN --------------*/

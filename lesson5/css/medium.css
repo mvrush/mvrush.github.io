@@ -19,15 +19,14 @@ h3 {
 /*----------- HEADER --------------*/
 .headercontent {
     border: 1px solid fuchsia;
-   
-   
-   /* display: flex;
+    /* Use the display properties to center the header */   
+    display: flex;
     align-items: center;
-    justify-content: center;  */
+    justify-content: center;
     
-  /*this is one way to move the header contents around */
+  /*this is one way to move the header contents around 
     position: relative;
-    left: 15rem; 
+    left: 15rem; */
 
 } 
 
