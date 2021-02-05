@@ -11,34 +11,34 @@
 
 /*----------- HEADER --------------*/
 .headercontent {
-
-}
-
-.headings {
-    
+    padding: 0 2%;
+    max-width: 950px;
+    margin: auto;
 }
 
 
 /*----------- NAVIGATION --------------*/
-nav button {display: none;} /* gets rid of hamburger button */
 
-nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if sized from small to medium while the menu is hidden */
-
-nav {
-           /* use the following to center the links */
+           /* use the following to center the links in the NAV area
+           nav {
            display: flex;
            align-items: center;
-           justify-content: center;
+           justify-content: center;} */
+
+
+.mainnavigation {
+    padding: 0 2%;
+    max-width: 960px;
+    margin: auto;
+
 }
 
 
-    nav ul li {
+   nav ul li {
         float: left;
        /* display: inline-block;  (this might give you more options) */
-        border: 1px solid fuchsia;
-
         
-    }
+    } 
 
     nav ul li a{padding: .6rem 1rem;}
 
@@ -46,7 +46,10 @@ nav {
 
 
 /*----------- MAIN --------------*/
-
+main {
+    max-width: 960px;
+    margin: auto;
+}
 
 
 /*----------- FOOTER --------------*/

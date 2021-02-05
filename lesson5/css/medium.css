@@ -17,24 +17,35 @@ h3 {
 
 
 /*----------- HEADER --------------*/
-.headercontent {
-    border: 1px solid fuchsia;
-    /* Use the display properties to center the header */   
+
+    /* Use the display properties to center the header    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     
   /*this is one way to move the header contents around 
     position: relative;
     left: 15rem; */
 
-} 
+
 
     header img{width: 75px;} /* sets logo adjustment for small screens back to logo's original size */
     header h1{font-size: 2.6rem;} /* this line and next line set the fonts larger than small.css for medium screens */
     header h2{font-size: 1.6rem;} 
 
 /*----------- NAVIGATION --------------*/
+nav button {display: none;} /* gets rid of hamburger button */
+
+nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if sized from small to medium while the menu is hidden */
+
+
+   nav ul li {
+        float: left;
+       /* display: inline-block;  (this might give you more options) */
+        
+    } 
+
+    nav ul li a{padding: .6rem .7rem;}
 
 
 
