@@ -97,6 +97,8 @@ main {
     background-color: #FFE66D;
 }
 
+div#message {background-color: #FF6B6B;}
+
 img {
     width: 90%;
 }

@@ -26,6 +26,12 @@ h3 {
     font-family: 'Alegreya', serif;
 }
 
+h4 {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    width: 8rem;
+}
+
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
@@ -77,6 +83,27 @@ img {
     width: 20%;
 }
 
+/* colors for color-scheme page */
+.navcolor {
+    background-color: #1a535c;
+    color: white;
+}
+
+.headcolor {
+    background-color: #4ECDC4;
+}
+
+.navtextcolor {
+    background-color: #F7FFF7;
+}
+
+.linkcolor {
+    background-color: #FF6B6B;
+}
+
+.navlinkcolor {
+    background-color: #FFE66D;
+}
 
 /*----------- FOOTER --------------*/
 footer {
