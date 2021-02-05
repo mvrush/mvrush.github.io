@@ -45,7 +45,11 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
         
     } 
 
-    nav ul li a{padding: .6rem .7rem;}
+    nav ul li a{
+        padding: .6rem .7rem;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        }
+    }
 
 
 

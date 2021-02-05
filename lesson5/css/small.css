@@ -58,7 +58,7 @@ nav button {
 
 nav {
     background-color: #1A535C;
-    padding: .5rem 2%;
+    padding: 0 2%;
 }
 
 nav ul {
@@ -75,7 +75,6 @@ nav ul li a {
     font-size: .9rem;
     text-align: center;
     border: none;
-    border-right: 1px solid rgba(0,0,0,0.3);
 }
 
 
