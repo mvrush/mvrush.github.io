@@ -1,5 +1,5 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 36rem) {
 
 
 /*----------- BODY --------------*/
@@ -77,6 +77,21 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
     section.fivedayforecast img {
         margin-top: 1.5rem;
         width: 35%;
+    }
+
+    article {
+        display: block;
+    }
+
+    article img {
+        float: right;
+        width: 40%;
+    }
+
+    
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 

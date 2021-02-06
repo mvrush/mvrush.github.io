@@ -154,14 +154,32 @@ img {
 
 .fivedayforecast {display: none;}
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed #000;
-    padding: 15px;
-    background-color: #eee;
-    color: #444;
-    font-style: italic;
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    order: 2;
+    width: 100%;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-grid1 {
+    grid-column-start: 1;
+}
+
+.contact-grid2 {
+    grid-column-start: 2;
+}
+
+iframe {
+    width: 250px;
+    height: 300px;
 }
 
 
@@ -172,7 +190,9 @@ footer {
     text-align: center;
 }
 
-
+#updatetime {
+    display: inline-block;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
