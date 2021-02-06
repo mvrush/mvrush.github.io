@@ -139,7 +139,7 @@ img {
     display: block;
     float: left;
     border: 1px solid black;
-    margin: 1.2rem .8rem;
+    margin: .2rem .2rem;
     padding: .5rem;
     background: rgba(255, 230, 109, 0.5);
 }
@@ -166,7 +166,7 @@ article img {
 
 .contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 120px);
 }
 
 .contact-grid1 {

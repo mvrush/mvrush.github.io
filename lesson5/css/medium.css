@@ -1,5 +1,5 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 36rem) {
+@media only screen and (min-width: 35rem) {
 
 
 /*----------- BODY --------------*/
@@ -50,13 +50,17 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
     } 
 
     nav ul li a{
-        padding: .6rem .7rem;
+        padding: .6rem .6rem;
         border-right: 1px solid rgba(0,0,0,0.3);
         }
 
 
 
 /*----------- MAIN --------------*/
+.weathersummary {
+    margin: 1.3rem .8rem;;
+}
+
     section.fivedayforecast {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
