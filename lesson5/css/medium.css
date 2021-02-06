@@ -61,6 +61,13 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
     margin: 1.3rem .8rem;;
 }
 
+    .fiveday {
+        display: block;
+    }
+
+    .fiveday h2 {
+        margin: 1rem 0 .5rem 0; /* values = top right bottom left */
+    }
 
     section.fivedayforecast {
         display: grid;
@@ -98,6 +105,12 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    iframe {
+        width: 250px;
+        height: 300px;
+    }
+    
 
 
 

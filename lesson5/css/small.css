@@ -19,6 +19,7 @@ h1 {
 h2 {
     font-size: 1.2rem;
     font-family: 'Alegreya', serif;
+    margin-bottom: -0.8rem; 
 }
 
 h3 {
@@ -122,9 +123,11 @@ nav ul.hide {display: none;}
 main {
   /*  padding: 0 2%;  */
     min-height: 10rem;
-    background-color: #FFE66D;
 }
 
+main h1 {
+    margin: 1rem 0 .5rem 0; /* values = top right bottom left */
+}
 
 img {
     width: 100%;
@@ -152,7 +155,7 @@ img {
     margin: .2rem 0;
 }
 
-.fivedayforecast {display: none;}
+.fiveday {display: none;}
 
 article {
     display: flex;
@@ -178,9 +181,10 @@ article img {
 }
 
 iframe {
-    width: 250px;
-    height: 300px;
+        width: 320px;
+        height: 300px;
 }
+    
 
 
 /*----------- FOOTER --------------*/
