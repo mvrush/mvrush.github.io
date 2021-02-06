@@ -61,6 +61,7 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
     margin: 1.3rem .8rem;;
 }
 
+
     section.fivedayforecast {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
