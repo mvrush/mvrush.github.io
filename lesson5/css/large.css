@@ -1,20 +1,23 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    main {
+    main, .headercontent, .mainnavigation  {
+        /* padding: 0 2%; */
         max-width: 64rem;
         margin: auto;
+    } 
+
+    h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
+        padding: 0;
     }
 /*----------- BODY --------------*/
 
 
 
 /*----------- HEADER --------------*/
-.headercontent {
-    padding: 0 2%;
-    max-width: 950px;
-    margin: auto;
-}
+    div#message {
+        font-size: 1rem;
+    }
 
 
 /*----------- NAVIGATION --------------*/
@@ -25,13 +28,6 @@
            align-items: center;
            justify-content: center;} */
 
-
-.mainnavigation {
-    padding: 0 2%;
-    max-width: 960px;
-    margin: auto;
-
-}
 
 
    nav ul li {
@@ -46,10 +42,7 @@
 
 
 /*----------- MAIN --------------*/
-main {
-    max-width: 960px;
-    margin: auto;
-}
+
 
 
 /*----------- FOOTER --------------*/
