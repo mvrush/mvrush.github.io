@@ -77,10 +77,11 @@ header h2 {margin: 0; font-weight: normal; font-size: 1rem;} /*added font-size t
 
 /*----------- NAVIGATION --------------*/
 nav button {
-    margin: 0 auto; /* first value (0) is top and bottom margin, second value (auto) is left and right margin. The (auto) is what centers it. */
+    margin: 0 2%; /* first value (0) is top and bottom margin, second value (auto) is left and right margin. Use (auto) instead of 2% to center it. */
     display: block;
     background-color: transparent;
     border: none;
+    font-family: 'Alegreya', serif;
     font-size: 1.6rem; /* set to make button the apple recommended 44px for your finger */
     color: #fff; /* changes color of lines from black to white */
 }
@@ -121,7 +122,7 @@ nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
 main {
-  /*  padding: 0 2%;  */
+    padding: 0;
     min-height: 10rem;
 }
 
@@ -160,6 +161,7 @@ img {
 article {
     display: flex;
     flex-direction: column;
+    padding: 0 2%;
 }
 
 article img {
@@ -170,6 +172,7 @@ article img {
 .contact {
     display: grid;
     grid-template-columns: repeat(2, 120px);
+    padding: 0 2%;
 }
 
 .contact-grid1 {
