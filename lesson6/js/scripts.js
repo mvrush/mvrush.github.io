@@ -2,7 +2,8 @@
 WebFont.load({
     google: {
         families: [
-            "Lato"
+            "Lato",
+            "Alegreya"
         ]
     }
 });
