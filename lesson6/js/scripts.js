@@ -1,13 +1,3 @@
-// Loads Google fonts
-WebFont.load({
-    google: {
-        families: [
-            "Lato",
-            "Alegreya"
-        ]
-    }
-});
-
 // Navigation toggle
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide"); 
