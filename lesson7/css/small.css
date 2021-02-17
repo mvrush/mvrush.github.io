@@ -14,6 +14,7 @@ h1, picture {
 
 img {border: double;}
 
+/* This causes the placeholder to blur and the image to blur for half a second */
 img[data-src] {
     filter: blur(0.2em);
   }
