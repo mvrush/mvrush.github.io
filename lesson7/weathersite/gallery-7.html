@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="A weather forecasting site">
+        <meta name="author" content="Matt Rushton">
+        <title>Home | Rain or Shine</title>
+        <!-- Google font links -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800;900&family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+        <!-- end Google font links -->
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <!-- HEADER HERE -->
+	<header class="clearfix">
+        <div class="headercontent">
+        <img src="images/logo.png" alt="Rain or Shine logo">
+        <section class="headings">
+     <h1>Rain or Shine</h1>
+            <h2>Be prepared for weather</h2>
+        </section>
+        </div>
+    </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <div class="mainnavigation">
+        <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>    
+            </ul>
+        </div>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+    <main>
+        <h2>Weather Gallery</h2> <br>
+    <div class="gallery">
+        <picture>
+            <img src="images/placeholder.png" data-src="images/spaceboy.jpg" alt="spaceboy">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/halo.jpg" alt="halo">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/moon.jpg" alt="moon">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/nebula.jpg" alt="nebula">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/northernlights.jpg" alt="northen lights">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/sandstars.jpg" alt="sand stars">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/starcliff.jpg" alt="star cliff">
+        </picture>
+    </div>
+        <script src="js/app.js"></script>
+        
+    <!-- FOOTER HERE -->   
+        <footer>
+            &copy; 2021 Matt Rushton &bull;
+            <div id="updatetime"></div>
+        </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

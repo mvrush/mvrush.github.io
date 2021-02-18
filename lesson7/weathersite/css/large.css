@@ -1,0 +1,67 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    main, .headercontent, .mainnavigation  {
+        padding: 0; 
+        max-width: 64rem;
+        margin: auto;
+    } 
+
+    h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
+        padding: 0;
+    }
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    div#message {
+        font-size: 1rem;
+    }
+
+
+/*----------- NAVIGATION --------------*/
+
+           /* use the following to center the links in the NAV area
+           nav {
+           display: flex;
+           align-items: center;
+           justify-content: center;} */
+
+
+
+   nav ul li {
+        float: left;
+       /* display: inline-block;  (this might give you more options) */
+        
+    } 
+
+    nav ul li a{padding: .6rem 1rem;}
+
+
+
+
+/*----------- MAIN --------------*/
+article {
+    padding: 0;
+}
+
+.contact {
+    padding: 0;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+}
+
+/*-------------GALLERY-------------*/
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */

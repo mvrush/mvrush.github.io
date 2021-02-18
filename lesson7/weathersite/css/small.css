@@ -1,0 +1,229 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-family: 'Alegreya', serif;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Alegreya', serif;
+    margin-bottom: -0.8rem; 
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: 'Alegreya', serif;
+}
+
+h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
+    padding: 0 2%;
+}
+
+
+
+/*----------- HEADER --------------*/
+/* #message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+} */
+
+div#message {
+    background-color: #FF6B6B;
+    padding: .5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+}
+div.showme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.hideme{display: none;}
+
+header {
+    padding: .5rem 2%;
+    background-color: #4ECDC4;
+    /*display: flex;
+    align-items: left;
+    justify-content: left;*/
+}
+header img {float:left; margin-right: 10px; width: 50px;} /* set the logo (it's native size was 200px) to 50px to fit smallest screens */
+header h1 {margin: 0; font-size: 1.3rem;} /*added font-size to fit smallest screens without wrapping */
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;} /*added font-size to fit smallest screens without wrapping */
+
+/* This sets the Rain or Shine <h1> and Be prepared <h2> to stack on top of each other. You can switch flex-direction to "row" to make them go side-by-side */
+/*.headings {
+    display: flex;
+    flex-direction: column;
+} */
+
+/*----------- NAVIGATION --------------*/
+nav button {
+    margin: 0 2%; /* first value (0) is top and bottom margin, second value (auto) is left and right margin. Use (auto) instead of 2% to center it. */
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-family: 'Alegreya', serif;
+    font-size: 1.6rem; /* set to make button the apple recommended 44px for your finger */
+    color: #fff; /* changes color of lines from black to white */
+}
+
+nav {
+    background-color: #1A535C;
+    padding: 0 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .8rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    border: none;
+}
+
+
+nav ul li a:hover {
+    background-color: #FFE66D;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #e6d78e;
+    color: #333;
+}
+
+nav ul li.active a:hover {
+    background-color: #FFE66D;
+    color: #333;
+}
+
+/* this works with our JavaScript by reference the " class="hide" " toggle on our <ul>. In the HTML it will show class="hide" because the JavaScript is toggling the value of that class. When you press the hamburger button the "hide" value changes to "" and the menu appears! */
+nav ul.hide {display: none;}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0;
+    min-height: 10rem;
+}
+
+main h1 {
+    margin: 1rem 0 .5rem 0; /* values = top right bottom left */
+}
+
+img {
+    width: 100%;
+}
+.imageandweather {
+    position: relative; /* this is the parent element for (in this case a <div>) of the weathersummary so it must be relative */
+}
+.weathersummary {
+    position: absolute; /*this is the child of the heroimage so it must be absolute */
+    top: 0;
+    left: 0;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    margin: .2rem .2rem;
+    padding: .5rem;
+    background: rgba(255, 230, 109, 0.5);
+}
+
+.weathersummary h3 {
+    margin: .5rem 0;
+}
+
+.weathersummary p {
+    margin: .2rem 0;
+}
+
+.fiveday {display: none;}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+}
+
+article img {
+    order: 2;
+    width: 100%;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    padding: 0 2%;
+}
+
+.contact-grid1 {
+    grid-column-start: 1;
+}
+
+.contact-grid2 {
+    grid-column-start: 2;
+}
+
+iframe {
+        width: 320px;
+        height: 300px;
+        padding:0px;
+        margin:0px;
+        border: 0px
+}
+    
+
+/*-------------GALLERY-------------*/
+.gallery {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #4ECDC4;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+#updatetime {
+    display: inline-block;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
