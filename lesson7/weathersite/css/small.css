@@ -200,11 +200,19 @@ iframe {
 /*-------------GALLERY-------------*/
 .gallery {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-    column-gap: 10px;
-    row-gap: 10px;
-    
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin: 1rem 0; /* first value=top and bottom  second value=left and right */
+}
+
+.gallery picture {
+    border: 1px solid black;
+}
+
+.gallery figcaption {
+    padding: .7rem 1rem; /* first value=top and bottom  second value=left and right */
 }
 
 /* This causes the placeholder to blur and the image to blur for half a second */
