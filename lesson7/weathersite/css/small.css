@@ -207,6 +207,16 @@ iframe {
     
 }
 
+/* This causes the placeholder to blur and the image to blur for half a second */
+.gallery img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.gallery img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }
+
 
 
 
