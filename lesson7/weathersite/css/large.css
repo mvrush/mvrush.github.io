@@ -62,6 +62,8 @@ iframe {
 
 }
 
+.gallery figure:hover {box-shadow: 0 0 50px #333;}
+
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

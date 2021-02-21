@@ -203,12 +203,16 @@ iframe {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     column-gap: 1rem;
-    row-gap: 1rem;
-    margin: 1rem 0; /* first value=top and bottom  second value=left and right */
+    align-items: center;
+    justify-items:center;
+    margin: 0 0 1rem 0; /* top, right, bottom, left */
 }
 
-.gallery picture {
+.gallery figure {
     border: 1px solid black;
+    box-shadow: 4px 4px 10px grey;
+    width: 95%;
+       
 }
 
 .gallery figcaption {
