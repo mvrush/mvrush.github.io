@@ -13,13 +13,60 @@ body {
 }
 
 h1, table {
-    display: flex;
+    text-align: center;
+/*    display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 1rem;
+    justify-content: center; */
+    padding: 1rem; 
+}
+
+table {
+    box-shadow: 5px 5px 5px grey;
 }
 
 table, th, td {
-    border: 1px solid grey;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgrey;
     border-collapse: collapse;
+    padding: .5rem;
+}
+
+thead td {
+    background-color: #7fb9c2;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+tr {
+    background-color: #e7ffed;
+}
+
+.title {
+    background-color: #7fb9c2;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+th {
+    color: white;
+    background-color: #628ca6;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+.highlight {
+    color: white;
+    background-color: #628ca6;
+}
+
+tfoot td{
+    background-color: #7fb9c2;
+    font-size: .7rem;
+    padding: .4rem;
 }
