@@ -44,7 +44,7 @@ caption {
     padding: 1rem;
     border-left: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
-    border-right: 1px solid flightgrey;
+    border-right: 1px solid lightgrey;
     box-shadow: 5px 0 5px grey;
     margin: 0;
 } 
