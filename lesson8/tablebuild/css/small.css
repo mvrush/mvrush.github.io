@@ -30,12 +30,25 @@ table, th, td {
     padding: .5rem;
 }
 
-thead td {
+/* thead td {
     background-color: #7fb9c2;
     font-weight: 700;
     font-size: 1.5rem;
     padding: 1rem;
-}
+} */
+
+caption {
+    background-color: #7fb9c2;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-right: 1px solid flightgrey;
+    box-shadow: 5px 0 5px grey;
+    margin: 0;
+} 
+
 
 tr {
     background-color: #e7ffed;
