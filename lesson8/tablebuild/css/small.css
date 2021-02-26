@@ -12,41 +12,35 @@ body {
     font-family: Ubuntu, sans-serif;
 }
 
-h1, table {
-    text-align: center;
-    padding: 1rem; 
+/* I had to create a main container to shadow the entire caption and table */
+main {
+    box-shadow: 5px 5px 10px grey;
+    margin: 0 auto; /* this centers everything in viewport */
+    width: 25%;
 }
 
-table {
-    box-shadow: 5px 5px 5px grey;
+h1, table {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
 }
 
 table, th, td {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.5rem;
     border: 1px solid lightgrey;
     border-collapse: collapse;
     padding: .5rem;
 }
 
-/* thead td {
+caption {
     background-color: #7fb9c2;
     font-weight: 700;
-    font-size: 1.5rem;
-    padding: 1rem;
-} */
-
-table caption {
-    background-color: #7fb9c2;
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
     border-left: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-    box-shadow: 5px 0 5px grey;
-    margin: 0;
+    border-right: 1px solid lightgrey; 
 } 
 
 
@@ -70,6 +64,6 @@ tr:nth-child(odd) {
 
 tfoot td{
     background-color: #7fb9c2;
-    font-size: .7rem;
+    font-size: 1rem;
     padding: .4rem;
 }
