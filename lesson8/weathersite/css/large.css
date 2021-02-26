@@ -64,6 +64,11 @@ iframe {
 
 .gallery figure:hover {box-shadow: 0 0 50px #333;}
 
+/*--------------FORM---------------*/
+form label.sbs {
+    padding: .4rem 0; /* this makes it so the radio buttons aren't so far apart on large screens */
+}
+
 
 /*----------- FOOTER --------------*/
     
