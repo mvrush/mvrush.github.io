@@ -110,6 +110,14 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
         width: 250px;
         height: 300px;
     }
+
+
+/*-------------GALLERY-------------*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
     
 
 
