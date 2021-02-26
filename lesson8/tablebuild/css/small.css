@@ -16,7 +16,7 @@ body {
 main {
     box-shadow: 5px 5px 10px grey;
     margin: 0 auto; /* this centers everything in viewport */
-    width: 400px;
+    width: 400px; /* forces to stay same size on screen resize */
 }
 
 h1, h2, table {
