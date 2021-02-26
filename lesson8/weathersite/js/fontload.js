@@ -1,4 +1,4 @@
-// Loads Google fonts
+// Loads Google fonts and works in tandem with the Google webfont.js found on the html page
 WebFont.load({
     google: {
         families: [
