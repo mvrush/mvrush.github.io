@@ -19,7 +19,7 @@ main {
     width: 25%;
 }
 
-h1, table {
+h1, h2, table {
     text-align: center;
     padding: 1rem;
     width: 100%;
