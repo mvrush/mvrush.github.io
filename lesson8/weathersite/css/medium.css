@@ -1,0 +1,119 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+
+/*----------- HEADER --------------*/
+
+    /* Use the display properties to center the header    
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+  /*this is one way to move the header contents around 
+    position: relative;
+    left: 15rem; */
+
+    div#message {
+        font-size: .9rem;
+    }
+
+
+
+    header img{width: 75px;} /* sets logo adjustment for small screens back to logo's original size */
+    header h1{font-size: 2.6rem;} /* this line and next line set the fonts larger than small.css for medium screens */
+    header h2{font-size: 1.6rem;} 
+
+/*----------- NAVIGATION --------------*/
+nav button {display: none;} /* gets rid of hamburger button */
+
+nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if sized from small to medium while the menu is hidden */
+
+
+   nav ul li {
+        float: left;
+       /* display: inline-block;  (this might give you more options) */
+        
+    } 
+
+    nav ul li a{
+        padding: .6rem .6rem;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        }
+
+
+
+/*----------- MAIN --------------*/
+.weathersummary {
+    margin: 1.3rem .8rem;;
+}
+
+    .fiveday {
+        display: block;
+    }
+
+    .fiveday h2 {
+        margin: 1rem 0 .5rem 0; /* values = top right bottom left */
+    }
+
+    section.fivedayforecast {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-right: 8rem;
+    }
+
+    section.fivedayforecast div {
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    section.fivedayforecast div h4 {
+        background-color: #4ECDC4;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    section.fivedayforecast img {
+        margin-top: 1.5rem;
+        width: 35%;
+    }
+
+    article {
+        display: block;
+    }
+
+    article img {
+        float: right;
+        width: 40%;
+    }
+
+    
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    iframe {
+        width: 250px;
+        height: 300px;
+    }
+    
+
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
