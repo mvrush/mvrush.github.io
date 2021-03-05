@@ -1,0 +1,84 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*-----------body------------*/
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin: auto;
+    max-width: 95rem;
+}
+
+h1, h2 {
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(80, 0, 80);
+}
+
+/*----------header---------*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*----------Main--------- (commented out CSS in .cards is used to control the grid an alternate way)*/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15% 1rem 15%; /* top, right, bottom, left */
+}
+
+section {
+    border: solid 1px black;
+    background-color: lightslategrey;
+    width: 100%;
+    height: 34rem;
+}
+
+div.cards {
+    min-width: 275px;
+    max-width: 95rem;
+}
+
+.cards {
+    background-color: rgb(232, 235, 236);
+    padding: 1rem;
+    display: grid;
+   /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    column-gap: .5rem;
+    row-gap: .5rem;
+    align-items: center;
+    justify-items:center;
+    text-align: center;
+    box-shadow: 0 0 20px #000; /*shadows all 4 sides by setting horizontal and vertical offset to 0. 3rd value is blur effect */
+}
+
+
+img {
+    width: 60%;
+    margin: 1rem; /* top, right, bottom, left */
+    border: solid 1px lightblue;
+    box-shadow: 0 0 20px #000;
+}
+
+
+
+
+
+/*----------Footer---------*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
