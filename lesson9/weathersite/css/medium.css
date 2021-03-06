@@ -111,6 +111,14 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
         height: 300px;
     }
 
+/*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
+div.town-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.town-info div:nth-child(2) figure {grid-column: 1; grid-row: 1;}
+.town-info div:nth-child(2) section {grid-column: 2;}    
+
 
 /*-------------GALLERY-------------*/
 .gallery {

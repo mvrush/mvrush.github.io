@@ -55,6 +55,9 @@ iframe {
     height: 300px;
 }
 
+/*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
+div.town-info {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
 /*-------------GALLERY-------------*/
 .gallery {
     display: grid;

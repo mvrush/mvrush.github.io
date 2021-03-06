@@ -197,6 +197,44 @@ iframe {
         border: 0px
 }
 
+/* ---------- Home Page Town Cards ---------- */
+div.town-info {
+    margin: 1rem 1rem 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    border: 1px solid fuchsia;
+}
+
+div.town-info section {
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3)
+}
+
+
+div.town-info section div h2, div.town-cards section p {
+    margin: 0;
+}
+
+div.town-info section div:first-of-type {
+    background: linear-gradient(#162F33, #045462);
+    color: white;
+    margin: -1rem -1rem 0.5rem -1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+div.town-info section img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
 /*-------------GALLERY-------------*/
 .gallery {
     display: grid;
