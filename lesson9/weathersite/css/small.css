@@ -46,9 +46,10 @@ h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
 
 div#message {
     background-color: #FF6B6B;
-    padding: .5rem;
+    background-image: linear-gradient(#FFE66D, #FF6B6B);
+    padding: .8rem;
     font-family: 'Lato', sans-serif;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: bold;
 }
 div.showme {
