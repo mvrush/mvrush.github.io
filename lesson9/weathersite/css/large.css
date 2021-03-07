@@ -56,7 +56,36 @@ iframe {
 }
 
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
+div.town-info section { 
+    display: block;
+    padding: 1rem;
+}
+
+div.town-info section div:first-of-type {
+    background: linear-gradient(#FFE66D, #f88e8e);
+    color: #1A535C;
+    margin: -1rem -1rem 0.5rem -1rem;
+    padding: .2rem 1rem .5rem 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+
 div.town-info {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+div.town-info section:nth-child(even) div.towns-data {
+    grid-column: 2;
+    margin: 0;
+}
+
+div.town-info section:nth-child(odd) div.towns-data {
+    grid-column: 1;
+    margin: 0;
+}
+
+div.town-info p{
+    margin: 0 0 .3rem 0;
+}
+
 
 /*-------------GALLERY-------------*/
 .gallery {

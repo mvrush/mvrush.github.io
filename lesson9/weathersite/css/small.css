@@ -203,35 +203,43 @@ div.town-info {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-    border: 1px solid fuchsia;
 }
 
 div.town-info section {
-    border: 1px solid red;
     padding: 1rem;
+    margin: 0;
     border-radius: 5px;
     background-color: #FFFFFF;
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.3)
 }
 
 
-div.town-info section div h2, div.town-cards section p {
-    margin: 0;
-}
-
-div.town-info section div:first-of-type {
-    background: linear-gradient(#162F33, #045462);
-    color: white;
+div.town-info section .towns-title {
+    background: linear-gradient(#FFE66D, #f88e8e);
+    color: #1A535C;
     margin: -1rem -1rem 0.5rem -1rem;
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: .2rem 1rem .5rem 1rem;
     border-radius: 5px 5px 0 0;
 }
 
+div.town-info h2 {
+    margin: .3rem 0 -.7rem 0;
+}
 
+div.town-info h3 {
+    font-size: .9rem;
+    color: black;
+}
+
+
+ div.town-info p{
+    margin: 0 0 .3rem 0;
+} 
 
 div.town-info section img {
     display: block;
     width: 100%;
+    margin: 1rem 0 0 0;
     border-radius: 5px;
 }
 

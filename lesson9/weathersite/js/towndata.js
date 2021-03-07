@@ -9,29 +9,41 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
         if (i == 5 || i == 6 || i == 1) {
         let card = document.createElement('section'); //card container
+
+        //create div for title and slogan
+        let div1 = document.createElement('div');
+        div1.setAttribute("class", "towns-title"); //sets the division class attribute for css styling
+        card.appendChild(div1);
+        
+        //Town Name Header
         let h2 = document.createElement('h2');
         h2.textContent = towns[i].name;
-        card.appendChild(h2);
+        div1.appendChild(h2);
 
         //appends town motto
-        let motto = document.createElement('p');
+        let motto = document.createElement('h3');
         motto.textContent = towns[i].motto;
-        card.appendChild(motto);
+        div1.appendChild(motto);
+
+        //create div for p
+        let div2 = document.createElement('div');
+        div2.setAttribute("class", "towns-data"); //sets the division class attribute for css styling
+        card.appendChild(div2);
 
         //appends year founded
         let founded = document.createElement('p');
         founded.textContent = "Year Founded: " + towns[i].yearFounded;
-        card.appendChild(founded);
+        div2.appendChild(founded);
 
         //appends population
         let population = document.createElement('p');
         population.textContent = "Town Population: " + towns[i].currentPopulation;
-        card.appendChild(population);
+        div2.appendChild(population);
 
         //appends Annual Rainfall
         let rainfall = document.createElement('p');
         rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
-        card.appendChild(rainfall);
+        div2.appendChild(rainfall);
 
         //appends image
         let image = document.createElement('img');
