@@ -9,8 +9,7 @@ fetch(apiURL)
     //Once it comes back, display it to the console.
     console.log(weatherInfo);
     
-    document.getElementById('currconditions').innerHTML=Math.round(weatherInfo.main.temp);
-    document.getElementById('skies').innerHTML=weatherInfo.weather[0].description;
+    document.getElementById('currconditions').innerHTML=weatherInfo.weather[0].description + " " + Math.round(weatherInfo.main.temp); // use concatenation for multiple values
     document.getElementById('hightemp').innerHTML=Math.round(weatherInfo.main.temp_max);
     document.getElementById('lowtemp').innerHTML=Math.round(weatherInfo.main.temp_min);
     document.getElementById('speed').innerHTML=Math.round(weatherInfo.wind.speed);
