@@ -63,7 +63,7 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
 
 /*------------------5 Day----------------*/
 
-    section.fivedayforecast {
+    div.fivedayforecast {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         margin-left: 1rem;

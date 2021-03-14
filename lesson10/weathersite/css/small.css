@@ -171,7 +171,7 @@ img {
     margin: 1rem 0 .5rem 0; /* values = top right bottom left */
 }
 
-section.fivedayforecast {
+div.fivedayforecast {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 5rem; /*valuse top&bottom, left&right */
@@ -179,18 +179,18 @@ section.fivedayforecast {
     border: 1px solid black;
 }
 
-section.fivedayforecast div {
+div.fivedayforecast div {
     text-align: center;
     border: 1px solid black;
 }
 
-section.fivedayforecast div h4 {
+div.fivedayforecast div h4 {
     background-color: #4ECDC4;
     margin: 0;
     padding: 1rem 0;
 }
 
-section.fivedayforecast img {
+div.fivedayforecast img {
     margin-top: 1.5rem;
     width: 35%;
 }
