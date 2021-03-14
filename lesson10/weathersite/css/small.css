@@ -162,7 +162,38 @@ img {
     margin: .2rem 0;
 }
 
-.fiveday {display: none;}
+/*------------------5 Day----------------*/
+.fiveday {
+    display: block;
+}
+
+.fiveday h2 {
+    margin: 1rem 0 .5rem 0; /* values = top right bottom left */
+}
+
+section.fivedayforecast {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 5rem; /*valuse top&bottom, left&right */
+    background-color: rgb(233, 230, 230);
+    border: 1px solid black;
+}
+
+section.fivedayforecast div {
+    text-align: center;
+    border: 1px solid black;
+}
+
+section.fivedayforecast div h4 {
+    background-color: #4ECDC4;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+section.fivedayforecast img {
+    margin-top: 1.5rem;
+    width: 35%;
+}
 
 article {
     display: flex;
