@@ -35,7 +35,7 @@ fetch(apiURL)
  myweekday[5] = "Friday";
  myweekday[6] = "Saturday";
  
- console.log(myweekday[3]);
+ console.log(myweekday[3]);  //functionality check
  
  const apiforecastURL = "//api.openweathermap.org/data/2.5/forecast?zip=83263,us&appid=c0fc88d8632588356324367e7fd1e57a&units=imperial";
  fetch(apiforecastURL)
