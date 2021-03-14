@@ -21,13 +21,6 @@ fetch(apiURL)
       document.getElementById("chill").textContent = "N/A";
   }
 
-    //all this icon stuff here, I probably don't need it. It will come into play when I do the 5-day and I have rewritten that
-    const iconcode = weatherInfo.weather[0].icon;
-    console.log(iconcode);
-    const icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
-    console.log(icon_path);
-
-    document.getElementById('weather_icon').src = icon_path;
 
  }); //end of "then" fat arrow function
 
