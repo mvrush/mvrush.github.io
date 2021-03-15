@@ -191,9 +191,11 @@ div.fivedayforecast div h4 {
 }
 
 div.fivedayforecast img {
-    margin-top: 1.5rem;
-    width: 35%;
+    margin-top: .5rem;
+    width: 50%;
 }
+
+/*-------------Article----------------*/
 
 article {
     display: flex;
@@ -205,6 +207,8 @@ article img {
     order: 2;
     width: 100%;
 }
+
+/*-------------------Contact-----------------*/
 
 .contact {
     display: grid;
