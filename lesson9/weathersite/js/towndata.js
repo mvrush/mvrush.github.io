@@ -7,7 +7,7 @@ fetch(requestURL)
     console.table(jsonObject); //temporary checking for valid response and data parsing remove this before submitting assignment
     const towns = jsonObject['towns'];  //stores the results of the converted response into an array
     for (let i = 0; i < towns.length; i++ ) {
-        if (i == 5 || i == 6 || i == 1) {
+        if (i == 0 || i == 6 || i == 2) {
         let card = document.createElement('section'); //card container
 
         //create div for title and slogan
