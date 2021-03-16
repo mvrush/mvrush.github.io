@@ -245,7 +245,7 @@ div.town-info section {
     margin: 0;
     border-radius: 5px;
     background-color: #FFFFFF;
-    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3)
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3) /* 0 horizontal offset, 0 vertical offset, 5px blur, 2px spread, color set to black with 30% transparency */
 }
 
 
@@ -346,7 +346,7 @@ form label.top input, form label.top select, form label.top textarea {
     color: #555; /* text color */
     width: 100%; /* for small screens */
     max-width: 20rem; /* limits width on large screens */
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1); 
 }
 
 form label.sbs {
@@ -357,13 +357,20 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #9C2C13;
+    background-color: #1A535C;
     color: white; /* text color */
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%; /* keeps it from going edge to edge on small screens */
     max-width: 20rem; /* makes it stay reasonably sized on large screens */
+    cursor: pointer; /*changes cursor on hover over button to let user know it's an action button */
+}
+
+form input.submitBtn:hover {
+    background-color: #FFE66D;
+    color:  #333;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3) /* 0 horizontal offset, 0 vertical offset, 5px blur, 2px spread, color set to black with 30% transparency */
 }
 
 /* the next two blocks color the left edge of the required fields and cause them to turn green when the input is valid. */
