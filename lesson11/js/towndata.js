@@ -4,7 +4,7 @@ fetch(requestURL)
     return response.json();
 })
 .then(function (jsonObject) {
-    console.table(jsonObject); //temporary checking for valid response and data parsing remove this before submitting assignment
+    console.table(jsonObject); //temporary checking for valid response and data parsing. Shows table in console to find town number.
     const towns = jsonObject['towns'];  //stores the results of the converted response into an array
     for (let i = 0; i < towns.length; i++ ) {
         if (i == 0 || i == 6 || i == 2) {
