@@ -107,11 +107,11 @@ fetch(apiURL)
         let title = document.createElement("h2");
         let eventadd = document.createElement("div");
 
-        title.innerHTML = town.name + ` Events`;
+        title.innerHTML = town.name + ` Events`; //writes the h2 title
 
         let myevents = town.events;
         for (i = 0; i < myevents.length; i++) {
-          let activity = document.createElement("p");
+          let activity = document.createElement("li");
           activity.innerHTML = `${town.events[i]}`
           eventadd.append(activity);
         };

@@ -195,6 +195,20 @@ div.fivedayforecast img {
     width: 50%;
 }
 
+/*-------------Events-----------------*/
+.events {
+    margin: .5rem 0 0 0;
+}
+
+.events h2 {
+    background-color: #4ECDC4; /* light turqoise */
+    margin: 0 0 .5rem 0;
+}
+
+.events li {
+    margin: 0 0 .2rem 1rem;
+}
+
 /*-------------Article----------------*/
 
 article {
