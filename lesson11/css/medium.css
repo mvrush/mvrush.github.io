@@ -78,6 +78,7 @@ nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if 
     article img {
         float: right;
         width: 40%;
+        margin: 0 0 1rem 1rem;
     }
 
     

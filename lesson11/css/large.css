@@ -47,6 +47,14 @@ div.fivedayforecast {
     margin-left: 0;
 }
 
+/*-------------EVENTS-------------*/
+
+.events li {
+    margin: 0 0 .2rem 1rem;
+}
+
+/*-------------ARTICLE------------*/
+
 article {
     padding: 0;
 }
