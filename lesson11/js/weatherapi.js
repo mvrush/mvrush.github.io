@@ -99,16 +99,15 @@ fetch(apiURL)
   })
     .then (function (jsonObject) {
       const towns = jsonObject["towns"];
-      const event = document.querySelector(".events");
+      const event = document.querySelector(".events"); //writes the events to the div in document with id=events
       console.log(towns);
-      console.log(event);
 
       const townfilter = towns.filter((town) => town.name == "Preston");
       townfilter.forEach((town) => {
         let title = document.createElement("h2");
         let eventadd = document.createElement("div");
 
-        title.innerHTML = `Upcoming Events`;
+        title.innerHTML = town.name + ` Events`;
 
         let myevents = town.events;
         for (i = 0; i < myevents.length; i++) {
