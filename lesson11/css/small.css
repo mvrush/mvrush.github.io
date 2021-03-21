@@ -420,6 +420,10 @@ footer {
     display: inline-block;
 }
 
+footer p {
+    line-height: .2rem;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
