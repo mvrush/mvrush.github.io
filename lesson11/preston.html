@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="A community page and weather forecasting site">
+        <meta name="author" content="Matt Rushton">
+        <title>Preston, ID | Rain or Shine</title>
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <!-- HEADER HERE -->
+    <div id="message">Party with Wayne and Garth every Saturday night at Chili Nelson's concert hall! 🌶️</div>
+	<header class="clearfix">
+        <div class="headercontent">
+        <a href="index.html"><img src="images/logo.png" alt="Rain or Shine logo"></a>
+        <section class="headings">
+     <h1>Rain or Shine</h1>
+            <h2>Be prepared for weather</h2>
+        </section>
+        </div>
+    </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <div class="mainnavigation">
+        <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>    
+            </ul>
+        </div>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+        <main>
+            <h1>Preston, Idaho</h1>
+        <div class="imageandweather">
+            <picture class="heroimage">
+                <source media="(max-width: 500px)" srcset="images/preston_idaho500.jpg">
+                <source media="(max-width: 800px)" srcset="images/preston_idaho800.jpg">
+                <img src="images/preston_idaho1100.jpg" alt="preston, idaho mountains">
+            </picture> 
+            <aside class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="currconditions"></span>&deg;F</p>
+                <p>High Temp: <span id="hightemp"></span>&deg;F</p>
+                <p>Low Temp: <span id="lowtemp"></span>&deg;F</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+                <p>Wind Chill: <span id="chill"></span></p>
+            </aside>
+        </div>
+            <div class="fiveday">
+                <h2>5 Day Forecast for <span id="townName">town</span> at Lunch Time.</h2>
+                    
+                        <div id="forecastDays" class="fivedayforecast"></div>
+
+            </div>
+
+            <div class="events"></div>
+
+    <article>
+        <h2>Napoleon Comes Home</h2>
+        <img class="articleimage" src="images/swimming.jpg" alt="swimming pool with a view">
+        <p>
+            Napoleon Dynamite returned home today after a grueling 7 months at Preston Community College. Napoleon said, "The college didn't have dorms so I just lived in a tent out behind the dumpster until I got my degree."</p>
+        <p>    
+            Napoleon's degree is in Agricultural Animal Husbandry. Mr. Dynamite said, "I'm going to create a new breed of chickens. The breed will have much smaller talons. In my previous work, I was pretty scratched up by the chicken's large talons and I really want to solve that problem".</p>
+        <p>
+            For now Napoleon Dynamite plans to take the summer off and spend time with his uncle in Alaska hunting wolverines. Mr. Dyamite said, "Last summer I shot, like 50 wolverines! This year I'll be gunning for 100. I'm planning on using a twelve-guage to keep my cousins safe from the wolverines. There is nothing more frightening than a wolverine attacking a child."
+        </p>
+        <p class="clearfix">    
+            Napoleon Dynamite was alone in his graduating class. On his degree it says "Preston Community College, Advanced Animal Husbandry Certificate". The degree was signed by Preston Community College President Rico Dynamite, Napoleon's uncle.
+        </p>
+            
+    </article>
+        
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-grid1">
+            <h3>Address:</h3>
+            <p>The Weather Center<br>
+                123 Main Street<br>
+                Rupert,<br>
+                ID 83350</p>
+        </div>
+        <div class="contact-grid2">
+            <h3>Phone:</h3>
+            <p>(801) 867-5309</p>
+            <h3>Email:</h3>
+            <p>contact@forecast.com</p>
+        </div> 
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72630222324!2d-111.91543026102866!3d42.0998052856814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612585803268!5m2!1sen!2sus" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div>
+    </section>
+        </main>
+        
+    <!-- FOOTER HERE -->   
+        <footer>
+            &copy; 2021 Matt Rushton &bull;
+            <div id="updatetime"></div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+</body>
+</html>

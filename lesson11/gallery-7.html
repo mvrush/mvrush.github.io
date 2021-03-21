@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="A community page and weather forecasting site">
+        <meta name="author" content="Matt Rushton">
+        <title>Home | Rain or Shine</title>
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <!-- HEADER HERE -->
+    <div id="message">Check out Saturday events on our town pages! 🏙️</div>
+	<header class="clearfix">
+        <div class="headercontent">
+        <a href="index.html"><img src="images/logo.png" alt="Rain or Shine logo"></a>
+        <section class="headings">
+     <h1>Rain or Shine</h1>
+            <h2>Be prepared for weather</h2>
+        </section>
+        </div>
+    </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <div class="mainnavigation">
+        <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="gallery-7.html">Gallery</a></li>    
+            </ul>
+        </div>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Weather Gallery</h1>
+    <div class="gallery">
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/bluesky400x300.jpg" alt="Blue Sky">
+                <figcaption>Sunny Blue Sky</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/deepsnow400x300.jpg" alt="deep snow">
+                <figcaption>Deep Snow</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/guitar400x300.jpg" alt="Sidewalk Guitar">
+                <figcaption>Sidewalk Guitar</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/heavyrain400x300.jpg" alt="Heavy Rain">
+                <figcaption>Heavy Rain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/lightning400x300.jpg" alt="lightning storm">
+                <figcaption>Lightning Storm</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/rainbows400x300.jpg" alt="twin rainbows">
+                <figcaption>Twin Rainbows</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/sanddune400x300.jpg" alt="sand dune">
+                <figcaption>Sand Dune</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/skateboard400x300.jpg" alt="skateboarder">
+                <figcaption>Skateboarder</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder400x300.png" data-src="images/gallery/hurricane400x300.jpg" alt="hurricane">
+                <figcaption>Hurricane</figcaption>
+            </figure>
+    </div>
+    </main>        
+    <!-- FOOTER HERE -->   
+        <footer>
+            &copy; 2021 Matt Rushton &bull;
+            <div id="updatetime"></div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="js/imageapp.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

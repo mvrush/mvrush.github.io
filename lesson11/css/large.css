@@ -1,0 +1,124 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    main, .headercontent, .mainnavigation  {
+        padding: 0; 
+        max-width: 64rem;
+        margin: auto;
+    } 
+
+    h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
+        padding: 0;
+    }
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    div#message {
+        font-size: 1rem;
+    }
+
+
+/*----------- NAVIGATION --------------*/
+
+           /* use the following to center the links in the NAV area
+           nav {
+           display: flex;
+           align-items: center;
+           justify-content: center;} */
+
+
+
+   nav ul li {
+        float: left;
+       /* display: inline-block;  (this might give you more options) */
+        
+    } 
+
+    nav ul li a{padding: .6rem 1rem;}
+
+
+
+
+/*----------- MAIN --------------*/
+
+div.fivedayforecast {
+    margin-left: 0;
+}
+
+/*-------------EVENTS-------------*/
+
+.events h2 {
+    padding: 0 0 0 .5rem;
+}
+
+.events li {
+    margin: 0 0 .2rem 1.5rem;
+}
+
+/*-------------ARTICLE------------*/
+
+article {
+    padding: 0;
+}
+
+.contact {
+    padding: 0;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+}
+
+/*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
+div.town-info section { 
+    display: block;
+    padding: 1rem;
+}
+
+div.town-info section div:first-of-type {
+    background: linear-gradient(#FFE66D, #f88e8e);
+    color: #1A535C;
+    margin: -1rem -1rem 0.5rem -1rem;
+    padding: .2rem 1rem .5rem 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+
+div.town-info {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+div.town-info section:nth-child(even) div.towns-data {
+    grid-column: 2;
+    margin: 0;
+}
+
+div.town-info section:nth-child(odd) div.towns-data {
+    grid-column: 1;
+    margin: 0;
+}
+
+div.town-info p{
+    margin: 0 0 .3rem 0;
+}
+
+
+/*-------------GALLERY-------------*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.gallery figure:hover {box-shadow: 0 0 50px #333;}
+
+/*--------------FORM---------------*/
+form label.sbs {
+    padding: .4rem 0; /* this makes it so the radio buttons aren't so far apart on large screens */
+}
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
