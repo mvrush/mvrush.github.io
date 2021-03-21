@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
 }
 
 
-
 /*----------- HEADER --------------*/
 /* #message {
     display: flex;
@@ -227,6 +226,10 @@ article {
 article img {
     order: 2;
     width: 100%;
+}
+
+article p {
+    line-height: 1.3rem;
 }
 
 /*-------------------Contact-----------------*/
