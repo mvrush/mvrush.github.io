@@ -49,8 +49,12 @@ div.fivedayforecast {
 
 /*-------------EVENTS-------------*/
 
+.events h2 {
+    padding: 0 0 0 .5rem;
+}
+
 .events li {
-    margin: 0 0 .2rem 1rem;
+    margin: 0 0 .2rem 1.5rem;
 }
 
 /*-------------ARTICLE------------*/

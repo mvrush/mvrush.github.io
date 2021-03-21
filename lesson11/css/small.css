@@ -177,6 +177,7 @@ div.fivedayforecast {
     margin: 0 5rem; /*valuse top&bottom, left&right */
     background-color: rgb(233, 230, 230);
     border: 1px solid black;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3) /* 0 horizontal offset, 0 vertical offset, 5px blur, 2px spread, color set to black with 30% transparency */
 }
 
 div.fivedayforecast div {
@@ -198,11 +199,17 @@ div.fivedayforecast img {
 /*-------------Events-----------------*/
 .events {
     margin: 1rem 0 0 0;
+    border-radius: 1rem;
+    border: 5px solid #1A535C;
+    background-color: #4ECDC4;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3) /* 0 horizontal offset, 0 vertical offset, 5px blur, 2px spread, color set to black with 30% transparency */
 }
 
 .events h2 {
-    background-color: #4ECDC4; /* light turqoise */
+    background: linear-gradient(#4ECDC4, #24707c);
+    padding: 0 0 0 .7rem;
     margin: 0 0 .5rem 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .events li {
