@@ -8,7 +8,7 @@
     } 
 
     h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
-        padding: 0;
+        padding: 0 .5%;
     }
 /*----------- BODY --------------*/
 
@@ -49,6 +49,10 @@ div.fivedayforecast {
 
 /*-------------EVENTS-------------*/
 
+.events {
+    margin: 1rem 0 0 0;
+}
+
 .events h2 {
     padding: 0 0 0 .5rem;
 }
@@ -59,10 +63,6 @@ div.fivedayforecast {
 
 /*-------------ARTICLE------------*/
 
-article {
-    padding: 0;
-}
-
 .contact {
     padding: 0;
 }
@@ -70,6 +70,10 @@ article {
 iframe {
     width: 400px;
     height: 300px;
+}
+
+article p {
+    padding: 0;
 }
 
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/

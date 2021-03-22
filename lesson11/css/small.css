@@ -28,7 +28,7 @@ h3 {
 }
 
 h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
-    padding: 0 2%;
+    padding: 0 2.5%;
 }
 
 
@@ -155,6 +155,7 @@ img {
 
 .weathersummary h3 {
     margin: 0;
+    padding: 0;
 }
 
 .weathersummary p {
@@ -197,7 +198,7 @@ div.fivedayforecast img {
 
 /*-------------Events-----------------*/
 .events {
-    margin: 1rem 0 0 0;
+    margin: 1rem .5rem 0 .5rem;
     border-radius: 1rem;
     border: 5px solid #1A535C;
     background-color: #4ECDC4;
@@ -220,7 +221,6 @@ div.fivedayforecast img {
 article {
     display: flex;
     flex-direction: column;
-    padding: 0 2%;
 }
 
 article img {
@@ -230,6 +230,7 @@ article img {
 
 article p {
     line-height: 1.3rem;
+    padding: 0 2%;
 }
 
 /*-------------------Contact-----------------*/
