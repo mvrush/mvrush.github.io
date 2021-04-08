@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Pleasant Grove, Utah Chamber of Commerce join the chamber page.">
+        <meta name="author" content="Matt Rushton">
+        <title>Join | Pleasant Grove Chamber</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <!-- HEADER HERE -->
+	<header class="clearfix">
+        <div class="headercontent">
+        <a href="index.html"><img src="images/logo.png" alt="Pleasant Grove Chamber of Commerce logo"></a>
+        <section class="headings">
+     <h1>Pleasant Grove</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        </div>
+    </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <div class="mainnavigation">
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">City of PG</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Business Directory</a></li>     
+            </ul>
+        </div>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Pleasant Groves Wants Your Business!</h1>
+        <h2>Join the Chamber</h2>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Business Contact Info</legend>
+            <label class="top">First Name*<input type="text" name="fname" pattern="[A-Za-z ]{2,}" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" pattern="[A-Za-z ]{3,}" required></label>
+            <label class="top">Title<input type="text" name="title"></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="name@gmail.com" required></label>
+            <label class="top">Cell Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>           
+        </fieldset>
+        <fieldset>
+            <legend>About Your Business</legend>
+            <label class="top">Business Name*<input type="text" name="bname" required></label>
+            <label class="top">Address<input type="text" name="address"></label>
+            <label class="top">City<input type="text" name="city"></label>
+            <label class="top">Zip Code<input type="number" name="zipcode" pattern="[0-9]{5}"></label>
+            <label class="top">Website Address<input type="url" name="website" placeholder="Ex. https://yoursite.com"></label>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>What Your Business Does</legend>
+            <label class="top">Enter Description<textarea name="comment" cols="30" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Membership Level</legend>
+            <div>
+            <h4>Membership Levels Include the Following</h4>
+            <ul>
+                <li>Gold:
+                    <ul>
+                        <li>Key to the city</li>
+                        <li>Business directory listing</li>
+                        <li>Premier seating at all city events</li>
+                        <li>City sponsorship plaque for your business</li>
+                        <li>Social media posts on city websites</li>
+                        <li>Banner at Strawberry Days rodeo</li>
+                        <li>Two tickets to Mayor's Meet-N-Greet</li>
+                    </ul>
+                </li>
+                <li>Silver:
+                    <ul>
+                        <li>Business directory listing</li>
+                        <li>City sponsorship plaque for your business</li>
+                        <li>Social media posts on city websites</li>
+                        <li>Banner at Strawberry Days rodeo</li>
+                        <li>Two tickets to Mayor's Meet-N-Greet</li>
+                    </ul>
+                </li>
+                <li>Bronze:
+                    <ul>
+                        <li>Business directory listing</li>
+                        <li>Social media posts on city websites</li>
+                        <li>Two tickets to Mayor's Meet-N-Greet</li>
+                    </ul>
+                </li>
+                <li>Non-profit:
+                    <ul>
+                        <li>Business directory listing</li>
+                        <li>Social media posts on city websites</li>
+                        <li>Business visit by Miss Pleasant Grove and attendants</li>
+                    </ul>
+                </li>
+                <div>Select Your Level</div>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold $1000</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver $400</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze $200</label>
+                <label class="sbs"><input type="radio" name="membership" value="non-profit"> Non-profit $100</label>
+            </ul>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Join the Chamber" class="submitBtn">  
+    
+    </form>
+        
+
+    </main>
+        
+    <!-- FOOTER HERE -->   
+        <footer>
+            &copy; 2021 Matt Rushton &bull;
+            <div id="updatetime"></div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="contact page for the Pleasant Grove Chamber of Commerce">
+        <meta name="author" content="Matt Rushton">
+        <title>Contact Us | Pleasant Grove Chamber</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <!-- HEADER HERE -->
+	<header class="clearfix">
+        <div class="headercontent">
+        <a href="index.html"><img src="images/logo.png" alt="Pleasant Grove Chamber of Commerce logo"></a>
+        <section class="headings">
+     <h1>Pleasant Grove</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        </div>
+    </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <div class="mainnavigation">
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">City of PG</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Business Directory</a></li>     
+            </ul>
+        </div>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+        <main>
+            <h1>Contact Us</h1>
+            <h2>Our Board of Directors</h2>
+<ul>
+    <li>James McIlvaney - President</li>
+    <li>Agatha Roberts - Vice President</li>
+    <li>Martin Stanhouser - Secretary</li>
+</ul>
+<form method="get" action="contactthanks.html">
+    <fieldset>
+        <legend>Send Us A Message</legend>
+        <label class="top">First Name*<input type="text" name="name" pattern="[A-Za-z ]{2,}" required></label>
+        <label class="top">Email*<input type="email" name="email" placeholder="name@gmail.com" required></label>
+        <label class="top">Cell Phone<input type="tel" name="phone" placeholder="1235551234"></label> 
+        <label class="top">Enter Message<textarea name="comment" cols="30" rows="10"></textarea></label>
+        <div>
+        <input type="submit" value="Send Your Message" class="submitBtn">
+        </div>           
+    </fieldset>
+</form>
+
+        
+    
+    <section class="contact">
+        <h2>Additional Contact Info</h2>
+        <div class="contact-grid1">
+            <h3>Address:</h3>
+            <p>Pleasant Grove Chamber of Commerce<br>
+                123 Main Street<br>
+                Pleasant Grove,<br>
+                UT 84062</p>
+        </div>
+        <div class="contact-grid2">
+            <h3>Phone:</h3>
+            <p>(801) 867-5309</p>
+            <h3>Email:</h3>
+            <p>contact@pgchamber.com</p>
+        </div>
+        <div class="social">
+            <a href="//facebook.com"  target="_blank"><img src="images/social/facebook.png" alt="Facebook icon"></a>
+            <a href="//instagram.com" target="_blank"><img src="images/social/instagram.png" alt="Instagram icon"></a>
+            <a href="//twitter.com" target="_blank"><img src="images/social/twitter.png" alt="Twitter icon"></a>
+          </div>
+    </section>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48629.40271303519!2d-111.76877279137145!3d40.37920819251822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d841f419bc7e7%3A0xa6bd1ff2b4bd2c1e!2sPleasant%20Grove%2C%20UT!5e0!3m2!1sen!2sus!4v1617676397660!5m2!1sen!2sus" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy"></iframe>
+     </div>
+        </main>
+        
+    <!-- FOOTER HERE -->   
+        <footer>
+            &copy; 2021 Matt Rushton &bull;
+            <div id="updatetime"></div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

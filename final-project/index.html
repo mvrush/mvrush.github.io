@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Pleasant Grove, Utah Chamber of Commerce. Includes business profiles and weather forecast.">
+        <meta name="author" content="Matt Rushton">
+        <title>Home | Pleasant Grove Chamber</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+    <!-- HEADER HERE -->
+    <div id="close" class="alert">
+        <h1>Alert <span id="alerttitle"></span></h1>
+        <p><span id="weatheralert"></span></p>
+        <button id="alertClose" class="" onclick="removeAlert()">Close Weather Alert</button>        
+    </div>
+	<header class="clearfix">
+        <div class="headercontent">
+        <a href="index.html"><img src="images/logo.png" alt="Pleasant Grove Chamber of Commerce logo"></a>
+        <section class="headings">
+     <h1>Pleasant Grove</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+        </div>
+    </header>
+        
+        
+    <!-- NAVIGATION HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+        <div class="mainnavigation">
+        <ul id="primaryNav" class="hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="city.html">City of PG</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Business Directory</a></li>    
+            </ul>
+        </div>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+        <main>
+        <div class="imageandweather">
+            <picture class="heroimage">
+                <source media="(max-width: 500px)" srcset="images/home/home_hero500.jpg">
+                <source media="(max-width: 800px)" srcset="images/home/home_hero800.jpg">
+                <img src="images/home/home_hero1100.jpg" alt="preston, idaho mountains">
+            </picture>
+            <aside class="calltoaction">
+                <h3>Join the chamber!</h3>
+                <button id="actionButton" class="myButton">Apply Now</button>
+            </aside>
+        </div>
+        <section class="weather">
+        <aside class="weathersummary">
+            <h3>Weather Summary</h3>
+            <p>Currently: <span id="currconditions"></span>&deg;F</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
+            <p>Feels Like: <span id="feels_like"></span></p>
+        </aside>
+    </div>
+    <div class="fiveday">
+        <h2>3 Day Temperature Forecast for Pleasant Grove</h2>
+            
+                <div id="forecastDays" class="fivedayforecast"></div>
+
+    </div>
+</section>
+    <article>
+        <h2>Our Purpose</h2>
+        <p>
+        Thank you for visiting the Pleasant Grove Chamber of Commerce. We are here to help you get to know the businesses and business environment of Pleasant Grove. Membership in our Chamber of Commerce brings the benifit of placing your business among the elite businesses in Pleasant Grove.
+        </p>
+         <p>Pleasant Grove is renowned for it's business presence throughout the world. From small local businesses like Chubby's Neighborhood Cafe to huge multi-national corporations like d&#244TERRA Pleasant Grove has it all.
+        </p>
+        <p class="clearfix">We are happy that you are learning more about our wonderful city and organization. We welcome you to Pleasant Grove and invite you to explore our city. Visit our business directory to see some of the thriving businesses that call Pleasant Grove home.
+        </p>            
+    </article>
+
+    <div class="events"></div>
+        
+    <h2 class="ad-h2">Visit These Local Businesses</h2>
+    <section class="ad">
+        <div class="ad-grid1">
+            <h3>Evermore Park</h3>
+            <img src="images/businesslogos/evermorepark.webp" loading="lazy" alt="Evermore Park Logo">
+        </div>
+        <div class="ad-grid2">
+            <h3>Address:</h3>
+            <p>382 S Evermore Lane<br>
+                Pleasant Grove,<br>
+                UT 84062</p>
+            <h3>Phone:</h3>
+            <p>(801) 796-2372</p>
+            <h3>Email:</h3>
+            <p>info@evermore.com</p>
+        </div> 
+    </section>
+    <section class="ad">
+        <div class="ad-grid1">
+            <h3>The Grid Racing</h3>
+            <img src="images/businesslogos/thegridracing.jpg" loading="lazy" alt="The Grid Racing Logo">
+        </div>
+        <div class="ad-grid2">
+            <h3>Address:</h3>
+            <p>593 S Evermore Lane<br>
+                Pleasant Grove,<br>
+                UT 84062</p>
+            <h3>Phone:</h3>
+            <p>(801) 882-2981</p>
+            <h3>Email:</h3>
+            <p>info@gridracing.com</p>
+        </div> 
+    </section>
+    <section class="ad">
+        <div class="ad-grid1">
+            <h3>Chubby's Cafe</h3>
+            <img src="images/businesslogos/chubbys.webp" loading="lazy" alt="Chubby's Neighborhood Cafe Logo">
+        </div>
+        <div class="ad-grid2">
+            <h3>Address:</h3>
+            <p>336 South Main Street<br>
+                Pleasant Grove,<br>
+                UT 84062</p>
+            <h3>Phone:</h3>
+            <p>(801) 785-1503</p>
+            <h3>Email:</h3>
+            <p>manager@chubbys.com</p>
+        </div> 
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-grid1">
+            <h3>Address:</h3>
+            <p>Pleasant Grove Chamber of Commerce<br>
+                123 Main Street<br>
+                Pleasant Grove,<br>
+                UT 84062</p>
+        </div>
+        <div class="contact-grid2">
+            <h3>Phone:</h3>
+            <p>(801) 867-5309</p>
+            <h3>Email:</h3>
+            <p>contact@pgchamber.com</p>
+        </div>
+        <div class="social">
+            <a href="//facebook.com"  target="_blank"><img src="images/social/facebook.png" alt="Facebook icon"></a>
+            <a href="//instagram.com" target="_blank"><img src="images/social/instagram.png" alt="Instagram icon"></a>
+            <a href="//twitter.com" target="_blank"><img src="images/social/twitter.png" alt="Twitter icon"></a>
+          </div>
+    </section>
+        </main>
+        
+    <!-- FOOTER HERE -->   
+        <footer>
+            &copy; 2021 Matt Rushton &bull;
+            <div id="updatetime"></div>
+            <br>
+            Weather data provided by <a href="//openweathermap.org">openweathermap.org</a>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+</body>
+</html>

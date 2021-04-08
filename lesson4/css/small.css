@@ -53,7 +53,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem; /* set to make button the apple recommended 44px for your finger */
-    color: #fff; /* changes color of lines from black to white */
+    color:#fff; /* changes color of lines from black to white */
 }
 
 nav {

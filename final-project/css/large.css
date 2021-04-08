@@ -1,0 +1,112 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    main, .headercontent, .mainnavigation  {
+        padding: 0; 
+        max-width: 64rem;
+        margin: auto;
+    } 
+
+    h1, h2, h3, h4, h5, .headercontent, .mainnavigation {
+        padding: 0 .2%;
+    }
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    div#message {
+        font-size: 1rem;
+    }
+
+
+/*----------- NAVIGATION --------------*/
+   nav ul li {
+        float: left;        
+    } 
+
+    nav ul li a{padding: .6rem 1rem;}
+
+
+
+
+/*----------- MAIN --------------*/
+.fiveday h2 {
+    font-size: 1.6rem;
+}
+
+div.fivedayforecast {
+    margin-left: 0;
+}
+
+/*-------------EVENTS-------------*/
+
+.events {
+    margin: 1rem 0 0 0;
+}
+
+.events h2 {
+    padding: 0 0 0 .5rem;
+}
+
+.events li {
+    margin: 0 0 .2rem 1.5rem;
+}
+
+/*-------------ARTICLE------------*/
+
+.contact {
+    padding: 0;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+}
+
+article p {
+    padding: 0;
+}
+
+/*----------- LAYOUT FOR THE directory CARDS  --------------*/
+div.directory-info section { 
+    display: block;
+    padding: 1rem;
+}
+
+div.directory-info section div:first-of-type {
+    background: linear-gradient(#D0D0D0, #BBB193);
+    color: #1A535C;
+    margin: -1rem -1rem 0.5rem -1rem;
+    padding: .2rem 1rem .5rem 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+
+div.directory-info {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+div.directory-info section:nth-child(even) div.directory-data {
+    grid-column: 2;
+    margin: 0;
+}
+
+div.directory-info section:nth-child(odd) div.directory-data {
+    grid-column: 1;
+    margin: 0;
+}
+
+div.directory-info p{
+    margin: 0 0 .3rem 0;
+}
+
+
+
+/*--------------FORM---------------*/
+form label.sbs {
+    padding: .4rem 0;
+}
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */

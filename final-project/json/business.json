@@ -1,0 +1,91 @@
+{
+  "directory": [
+    {
+      "name": "Pleasant Grove",
+      "photo": "sodasprings.jpg",
+      "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
+      "events": [
+        "June 16-19: Strawberry Days",
+        "August 9: Concert in the Park ",
+        "September 15-16: Pleasant Grove Music Festival"
+      ]
+    },
+    {
+      "name": "Chubby's Cafe",
+      "photo": "chubbys.jpg",
+      "motto": "Git fat with Chubby!",
+      "phone": "801-785-1503",
+      "website": "https://www.chubbyscafeut.com/",
+      "address": [
+        "336 S. Main Street",
+        " Pleasant Grove, UT 84660"
+      ]
+    },
+    {
+      "name": "Gandolfo's Deli",
+      "photo": "gandolfos.jpg",
+      "motto": "How ya like ya sandwich?",
+      "phone": "801-796-1200",
+      "website": "https://eatstreet.com/provo-ut/restaurants/gandolfos-new-york-deli-pleasant-grove",
+      "address": [
+        "715 S Main Street",
+        " Pleasant Grove, UT 84062"
+      ]
+    },
+    {
+      "name": "McNeil Printing",
+      "photo": "mcneilprinting.jpg",
+      "motto": "Real ink printing!",
+      "phone": "801-796-1200",
+      "website": "https://mcneilprinting.com/",
+      "address": [
+        "1189 South 1480 West",
+        " Orem, UT 84058"
+      ]
+    },
+    {
+      "name": "Republic Services",
+      "photo": "republicservices.jpg",
+      "motto": "Pickin' up yer garbage.",
+      "phone": "801-796-1200",
+      "website": "https://www.republicservices.com/locations/utah/pleasant-grove",
+      "address": [
+        "643 W 700 S",
+        " Pleasant Grove, UT 84062"
+      ]
+    },
+    {
+      "name": "Enevive",
+      "photo": "enevive.jpg",
+      "motto": "Is it really safe to drink?",
+      "phone": "801-993-0080",
+      "website": "https://www.enevive.com/",
+      "address": [
+        "527 W State Street",
+        " Pleasant Grove, UT 84062"
+      ]
+    },
+    {
+      "name": "Close to my Heart",
+      "photo": "closetomyheart.jpg",
+      "motto": "Bring the love folks.",
+      "phone": "801-763-8395",
+      "website": "https://www.closetomyheart.com/",
+      "address": [
+        "1199 W 700 S",
+        " Pleasant Grove, UT 84062"
+      ]
+    },
+    {
+      "name": "Powerhouse Motorsports",
+      "photo": "powerhouse.jpg",
+      "motto": "Got Power? We do.",
+      "phone": "801-785-2244",
+      "website": "https://www.powerhouseusa.com/",
+      "address": [
+        "25 W State Street",
+        " Pleasant Grove, UT 84062"
+      ]
+    }
+  ]
+}

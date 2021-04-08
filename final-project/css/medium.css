@@ -1,0 +1,169 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+
+/*----------- HEADER --------------*/
+    div#message {
+        font-size: .9rem;
+    }
+
+
+
+    header img{width: 75px;}
+    header h1{font-size: 2.6rem;}
+    header h2{font-size: 1.6rem;} 
+
+/*----------- NAVIGATION --------------*/
+nav button {display: none;}
+
+nav ul.hide {display: block;}
+
+
+   nav ul li {
+        float: left;        
+    } 
+
+    nav ul li a{
+        padding: .6rem .6rem;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        }
+
+
+
+/*----------- MAIN --------------*/
+.weathersummary {
+    margin: 1.3rem .8rem;;
+}
+
+/*----------------weather section---------*/
+.weather {
+    display: grid;
+    grid-template-columns: 275px 1fr;
+    justify-items: center;
+    align-items: start;  
+}
+
+/*------------------5 Day----------------*/
+.fiveday {
+    display: block;
+    margin-left: .5rem;
+}
+
+.fiveday h2 {
+    font-size: 1.2rem;
+}
+
+    div.fivedayforecast {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 5rem;
+        margin-left: 0;
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    article {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .article1 {
+        grid-column: 1 / 3;
+    }
+
+    .article2 {
+        grid-row-start: 2;
+        grid-column: 1 / 3;
+    }
+
+    .article2 h2 {
+        text-align: center;
+        margin-left: 6rem;
+    }
+
+    .article3 {
+        grid-row-start: 3;
+        grid-column: 1 / 3;
+    }
+
+    .articleimage1 {
+        float: right;
+        width: 40%;
+        margin: 0 0 1rem 1rem;
+    }
+
+    .articleimage2 {
+        float: left;
+        width: 40%;
+        margin: 1rem 1rem 0 0;
+    }
+
+    .articleimage3 {
+        float: right;
+        width: 40%;
+        margin: 0 0 1rem 1rem;
+    }
+
+    
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    iframe {
+        width: 250px;
+        height: 300px;
+    }
+
+/*----------- LAYOUT FOR THE directory CARDS  --------------*/
+.buttondiv {
+    display: block;
+    margin: 1rem 0 -.4rem 1rem;
+}
+
+div.directory-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.directory-info div:nth-child(2) figure {grid-column: 1; grid-row: 1;}
+.directory-info div:nth-child(2) section {grid-column: 2;} 
+
+
+div.directory-info p{
+    margin: 0 0 .3rem .7rem;
+}
+
+.directory-data {
+    margin: 0;
+}
+
+div.directory-info.list-view {
+    margin: 1rem 1rem 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
