@@ -1,0 +1,70 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+
+
+
+
+    /*----------- HEADER --------------*/
+
+
+    .headerlogo {
+        width: 50%;
+    }
+
+    .paysonh2 {
+        font-size: 2.6rem;
+        color: #620080;
+    }
+
+
+    /*----------- NAVIGATION --------------*/
+
+
+    /*----------- MAIN --------------*/
+
+    main h2 {
+        font-size: 2.5rem;
+    }
+
+
+    .dateaddress {
+        color: #620080;
+        font-size: 2.5rem;
+    }
+
+    .hctslogo img{
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+
+
+
+    /*-------------------Contact-----------------*/
+    .contact h2, h3 {
+        font-size: 1.5rem;
+    }
+
+
+        
+
+
+    /*----------- FOOTER --------------*/
+    footer {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #updatetime {
+        display: inline-block;
+    }
+
+
+
+
+
+} /* end of media query */

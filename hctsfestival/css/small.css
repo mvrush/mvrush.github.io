@@ -1,0 +1,109 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Fira sans', sans-serif;
+    background: url('http://127.0.0.1:5500/hctsfestival/images/background1200px.jpg');
+    background-position: Top Center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    margin-bottom: -0.8rem; 
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+
+
+/*----------- HEADER --------------*/
+.headercontent {
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.headerlogo {
+    width: 70%;
+}
+
+.paysonh2 {
+    font-size: 2rem;
+    color: #620080;
+}
+
+
+/*----------- NAVIGATION --------------*/
+
+
+/*----------- MAIN --------------*/
+main {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+.centergrid {
+    display: grid 1fr 1fr 1fr;
+}
+
+.dateaddress {
+    color: #620080;
+    font-size: 2rem;
+}
+
+.hctslogo img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+
+
+/*-------------------Contact-----------------*/
+ .contact h2 {
+     font-size: 1.2rem;
+ }
+
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+#updatetime {
+    display: inline-block;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
