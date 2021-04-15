@@ -9,8 +9,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: 'Fira sans', sans-serif;
-  /*  background: url('http://127.0.0.1:5500/hctsfestival/images/background1200px.jpg'); */
-    background: url('images/background1200px.jpg');
+   /* background: url('http://127.0.0.1:5500/hctsfestival/images/background1200px.jpg'), radial-gradient(yellow, rgb(255, 59, 59)); */
+    background: url('//mvrush.github.io/hctsfestival/images/background1200px.jpg'), radial-gradient(yellow, rgb(255, 59, 59));
     background-position: Top Center;
     background-size: cover;
 }
