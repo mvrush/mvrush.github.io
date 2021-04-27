@@ -68,7 +68,36 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0; 
+    background: rgba(247, 241, 161, 0.35);
 }
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: .8rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    border: none;
+}
+
+nav ul li a:hover {
+    background-color: #FFE66D;
+    color: #333;
+}
+
+nav ul li.active a {
+    background-color: #e6d78e;
+    color: #333;
+}
+
+nav ul li.active a:hover {
+    background-color: #FFE66D;
+    color: #333;
+}
+
+/* this works with our JavaScript by reference the " class="hide" " toggle on our <ul>. In the HTML it will show class="hide" because the JavaScript is toggling the value of that class. When you press the hamburger button the "hide" value changes to "" and the menu appears! */
+nav ul.hide {display: none;}
 
 
 /*----------- MAIN --------------*/
