@@ -40,8 +40,8 @@ h3 {
 .headercontent {
     display: block;
     text-align: center;
-    padding: 2rem 0;
-    border: 1px solid yellow;
+    padding: 0;
+    border: 1px solid green;
 }
 
 .headerlogo {
@@ -51,6 +51,24 @@ h3 {
 
 
 /*----------- NAVIGATION --------------*/
+nav button {
+    margin: 0 2%; /* first value (0) is top and bottom margin, second value (auto) is left and right margin. Use (auto) instead of 2% to center it. */
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 0 1rem;
+    background-color: transparent;
+    border: none;
+    font-family: 'Alegreya', serif;
+    font-size: 1.6rem; /* set to make button the apple recommended 44px for your finger */
+    color: black; /* changes color of lines from black to white */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
 
 
 /*----------- MAIN --------------*/
