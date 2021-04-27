@@ -8,16 +8,43 @@
 
 
     /*----------- HEADER --------------*/
+    .headercontent {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
 
+    }
 
     .headerlogo {
-        width: 50%;
+        width: 100%;
     }
 
 
 
     /*----------- NAVIGATION --------------*/
+    nav button {display: none;} /* gets rid of hamburger button */
 
+    nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if sized from small to medium while the menu is hidden */
+
+    
+    nav ul li {
+        display: block;         
+    }
+    
+    nav ul li a{
+        padding: .6rem .6rem;
+        border: 1px solid rgba(0,0,0,0.3);
+        }
+    
+    
+    #primaryNav1 {
+        grid-column-start: 1;
+        background-color: pink;
+    }
+
+    #primaryNav2 {
+        grid-column-start: 3;
+        background-color: chartreuse;
+    }
 
     /*----------- MAIN --------------*/
 

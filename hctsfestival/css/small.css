@@ -59,7 +59,8 @@ nav button {
     padding: 0 1rem;
     background-color: transparent;
     border: none;
-    font-family: 'Alegreya', serif;
+    font-family: 'Fira sans', sans-serif;
+    font-weight: 500;
     font-size: 1.6rem; /* set to make button the apple recommended 44px for your finger */
     color: black; /* changes color of lines from black to white */
 }
@@ -116,7 +117,6 @@ main h2 {
     font-style: italic;
     color: #620080;
     margin: 0;
-    border: 1px solid red;
 }
 
 .centergrid {
