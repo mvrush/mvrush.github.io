@@ -13,10 +13,6 @@
         width: 40%;
     }
 
-    .paysonh2 {
-        font-size: 2.6rem;
-        color: #620080;
-    }
 
 
     /*----------- NAVIGATION --------------*/
@@ -25,7 +21,12 @@
     /*----------- MAIN --------------*/
 
     main h2 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+    }
+
+    .paysonh2 {
+        font-size: 3rem;
+        color: #620080;
     }
 
 

@@ -7,9 +7,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- BODY --------------*/
 body {
-    font-size: 16px;
     font-family: 'Fira sans', sans-serif;
    /* background: url('http://127.0.0.1:5500/hctsfestival/images/background1200px.jpg'), radial-gradient(yellow, rgb(255, 59, 59)); */
+    font-size: 16px; 
     background: url('https://mvrush.github.io/hctsfestival/images/background1200px.jpg'), radial-gradient(yellow, rgb(255, 59, 59));
     background-position: Top Center;
     background-size: cover;
@@ -26,7 +26,6 @@ h2 {
     font-size: 1.2rem;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
-    margin-bottom: -0.8rem; 
 }
 
 h3 {
@@ -42,16 +41,13 @@ h3 {
     display: block;
     text-align: center;
     padding: 2rem 0;
+    border: 1px solid yellow;
 }
 
 .headerlogo {
     width: 70%;
 }
 
-.paysonh2 {
-    font-size: 2rem;
-    color: #620080;
-}
 
 
 /*----------- NAVIGATION --------------*/
@@ -63,7 +59,17 @@ main {
 }
 
 main h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.paysonh2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #620080;
+    margin: 0;
+    border: 1px solid red;
 }
 
 .centergrid {
