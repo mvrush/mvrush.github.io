@@ -5,13 +5,13 @@ function toggleMenu() {
 
 /*---------STICKY NAVBAR------------*/
 //When user scrolls the page, execute stickyScroll
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickyNav()};
 //Get the navbar
 var navbar = document.getElementById("navbar");
 //Get the offest position of the navbar
 var sticky = navbar.offsetTop;
 //Add the sticky class to the navbar when you reach it's scroll position. Remove "sticky" when you leave scroll position
-function myFunction() {
+function stickyNav() {
     if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky")
     }
