@@ -41,7 +41,6 @@ h3 {
     display: block;
     text-align: center;
     padding: 0;
-    border: 1px solid green;
 }
 
 .headerlogo {
@@ -69,7 +68,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0; 
-    background: rgba(219, 215, 155, 0.4);
+    background: rgba(255, 245, 101, 0.582);
 }
 
 nav ul li a {
@@ -79,21 +78,20 @@ nav ul li a {
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
-    border: none;
 }
 
 nav ul li a:hover {
-    background-color: #FFE66D;
+    background-color: #f5ff6d;
     color: #333;
 }
 
 nav ul li.active a {
-    background-color: #e6d78e;
+    background-color: #eef3a1;
     color: #333;
 }
 
 nav ul li.active a:hover {
-    background-color: #FFE66D;
+    background-color: #f5ff6d;
     color: #333;
 }
 

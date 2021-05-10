@@ -9,13 +9,12 @@
 
     /*----------- HEADER --------------*/
     .headercontent {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-
+        display: block;
     }
 
     .headerlogo {
-        width: 100%;
+        width: 50%;
+        margin-top: 1rem;
     }
 
 
@@ -25,26 +24,30 @@
 
     nav ul.hide {display: block;} /* makes it so the menu does not remain hidden if sized from small to medium while the menu is hidden */
 
+    nav ul {
+        margin: 0;
+    }
     
-    nav ul li {
-        display: block;         
+    nav ul li{
+        display: inline-block;
+        margin-right: -5px;
     }
     
     nav ul li a{
-        padding: .6rem .6rem;
-        border: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 2rem;
         }
-    
-    
-    #primaryNav1 {
-        grid-column-start: 1;
-        background-color: pink;
-    }
 
-    #primaryNav2 {
-        grid-column-start: 3;
-        background-color: chartreuse;
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
+    
+    .sticky+.main {
+        padding-bottom: 60px;
+      }
+    
 
     /*----------- MAIN --------------*/
 
