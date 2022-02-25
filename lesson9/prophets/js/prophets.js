@@ -28,6 +28,7 @@ fetch(requestURL)
         image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order)
         card.appendChild(image);
 
-        document.querySelector('div.cards').appendChild(card);
+        // document.querySelector('div.cards').appendChild(card); // uses the querySelector() to find the 'div' with the 'cards' class
+        document.getElementById("cards").appendChild(card); // This one uses getElementById() to find the 'cards' id.
     }
 });
